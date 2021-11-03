@@ -4,38 +4,103 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <meta content="" property="og:title">
+  <meta content="" property="og:type">
+  <meta content="" property="og:url">
+  <meta content="" property="og:image">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link href="site.webmanifest" rel="manifest">
+  <link href="icon.png" rel="apple-touch-icon">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 
-  <meta name="theme-color" content="#fafafa">
+  <meta content="#fafafa" name="theme-color">
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<!-- Add your site or application content here -->
+<div class="margin_left_right_auto" id="wrapper">
+  <div id="header">
+    <div class="gr_width_small float_left" id="logo">
+      <a href="index.html"><img height="120" src="img/img.png" width="369"></a>
+    </div>
+    <div id="menu" class="gr_width_large float_left">
+      <menu class="float_right reset_margin_padding">
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="history.html">history</a></li>
+      </menu>
+    </div>
+    <div id="masthead_landing" class="clear_float MastheadTopMargin">
+      <div id="Hero">
+        <h1 class="reset_margin_padding">Hero text</h1>
+      </div>
+    </div>
+  </div>
+  <div class="callout float_left">
+    <div class="title">
+      <h1>Internet history</h1>
+    </div>
+    <div class="content float_left">
+      What is the internet?
+      who controls it?
+      who owns it?
+    </div>
+  </div>
+<div class="callout float_left">
+  <div class="title">
+    <h1>The web</h1>
+  </div>
+  <div class="content float_left">
+    What is the web?
+    who owns it?
+    how old is it?
+  </div>
+</div>
+<div class="callout float_left">
+  <div class="title">
+    <h1>Inventions</h1>
+  </div>
+  <div class="content float_left">
+    computers
+    cars
+    mobile phones
+  </div>
+</div>
+</div>
+<div id="footer" class="clear_float text_center">
+  © Joshua Samah
+  <script type="text/javascript">
+    var d = new Date()
+    document.write(d.getFullYear())
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</div>
+</div>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
 </body>
 
 </html>
