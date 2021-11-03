@@ -120,6 +120,10 @@ textarea {
   margin: 0px;
   padding: 0px;
 }
+.article .title a{
+  text-decoration: none;
+  color: black;
+}
 #masthead_landing {
   height: 367px;
   background-image: url("../img/img_2.png");
@@ -159,8 +163,16 @@ textarea {
   width: 320px;
   height: 196px;
 }
+.footer{
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
 .position_absolute{
 position: absolute
+}
+.hr{
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
 /* ==========================================================================
    Helper classes
